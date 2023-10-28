@@ -5,6 +5,12 @@
 Joshua Williams and Jayden Gillam
 Live Internet JSON Data Retrieval and Display
 
+ENTRY POINTS:
+
+- Console Based Application - project1.py
+
+- GUI Application - project1GUI.py
+
 This Python program provides a simple way to retrieve and display information from a Wikipedia page using the Wikipedia API. The program includes two main functions:
 
 1.) get_json_dict(condensed_page_name: str) -> dict:
