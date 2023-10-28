@@ -3,6 +3,7 @@ import ssl
 from urllib.request import urlopen
 import sys
 
+
 def main():
     article_name = condense_page_name(input("Enter name of Wikipedia article: "))
     if article_name == "":
@@ -43,5 +44,6 @@ def display_information(json_dict: dict) -> None:
         print("No article found.")
         return sys.exit(2)
 
+
 if __name__ == "__main__":
-    main()
+   main()
