@@ -56,3 +56,37 @@ Usage
 To run the tests defined in this file, you can execute it as the main module. When executed, it will use the unittest framework to run the defined test cases. If the functions being tested are correctly implemented, the test cases will pass without any assertion errors. If there are issues with the functions, the test cases will highlight them.
 
 In the if __name__ == "__main__": block, the unittest.main() function is called to discover and run the tests. To use this test suite, ensure that your "project1" module is correctly imported and contains the functions condense_page_name and get_json_dict. If you have additional functions to test, you can define more test cases within this test file.
+
+Iteration 2 GUI
+
+This Python program is a Graphical User Interface (GUI) application that allows users to query and retrieve information about Wikipedia page revisions. The GUI is built using the Tkinter library and provides a user-friendly interface to interact with the Wikipedia API. Here's a brief description of the GUI and its features:
+
+Features:
+
+1.) Search Input: Users can enter the title of the Wikipedia page they want to query into the text entry field. The program handles input validation and formatting to ensure proper query execution.
+
+2.) Query Button: Clicking the "Query" button initiates the query process. The program will send a request to the Wikipedia API to fetch information about the specified page.
+
+3.) Revisions List: The retrieved information is displayed in the listbox, allowing users to view details about the page, including revisions and redirects.
+
+How to Use:
+
+1.) Launch the application by running the script.
+
+2.) Enter the title of the Wikipedia page you want to query into the text entry field.
+
+3.) Click the "Query" button to fetch information.
+
+4.) The listbox will display the results, which may include revisions, redirects, or error messages if the article is not found or if there is a network issue.
+
+Dependencies:
+
+The program relies on several Python modules, including json, ssl, urllib.request, and tkinter. Ensure that these modules are properly installed on your system.
+
+Important Note:
+
+-Make sure to import the necessary modules and ensure that the functions get_json_dict, add_information, and condense_page_name are correctly defined in your "project1" module for the GUI to work properly. The GUI interacts with these functions to retrieve and display Wikipedia page information.
+
+-The GUI provides a user-friendly way to utilize the functionality of the "project1" module for querying Wikipedia page revisions.
+
+-Customize and extend the GUI as needed to meet the specific requirements of your project. You can add additional features, error handling, and improvements to enhance the user experience.
